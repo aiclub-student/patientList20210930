@@ -32,4 +32,8 @@ class CellData {
         li.append(Cell(firstName: "A8", secondName: "B8", city: "C8"))
         cells=li
     }
+    
+    static func updateNotes(id:Int,newNote:String) {
+        cells[id].city=newNote
+    }
 }

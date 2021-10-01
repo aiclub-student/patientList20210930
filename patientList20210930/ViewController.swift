@@ -19,6 +19,16 @@ class ViewController: UIViewController {
         tableView.dataSource=self
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let detailVC = segue.destination as! SecondViewController
+        let i = tableView.indexPathForSelectedRow?.row
+        detailVC.name = CellData.cells[i!].firstName
+        detailVC.diagnosis=CellData.cells[i!].secondName
+        detailVC.notes=CellData.cells[i!].city
+        detailVC.patientId=i
+        
+        
+    }
 
 }
 
