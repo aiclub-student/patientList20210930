@@ -24,8 +24,9 @@ class ViewController: UIViewController {
         let i = tableView.indexPathForSelectedRow?.row
         detailVC.name = CellData.cells[i!].firstName
         detailVC.diagnosis=CellData.cells[i!].secondName
-        detailVC.notes=CellData.cells[i!].city
+        detailVC.notes=CellData.cells[i!].aiGroup
         detailVC.patientId=i
+        detailVC.imageName=FixedData.LevelMeaning[CellData.cells[i!].aiGroup]
         
         
     }

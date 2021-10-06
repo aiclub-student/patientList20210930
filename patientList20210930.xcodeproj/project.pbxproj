@@ -16,6 +16,7 @@
 		AAD9B3832706468300D3D33B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD9B3822706468300D3D33B /* SecondViewController.swift */; };
 		AAD9B385270648B600D3D33B /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD9B384270648B600D3D33B /* CellData.swift */; };
 		AAD9B387270649CE00D3D33B /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD9B386270649CE00D3D33B /* TableCell.swift */; };
+		AAD9B389270D0EC600D3D33B /* FixedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD9B388270D0EC500D3D33B /* FixedData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AAD9B3822706468300D3D33B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AAD9B384270648B600D3D33B /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
 		AAD9B386270649CE00D3D33B /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		AAD9B388270D0EC500D3D33B /* FixedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				AAD9B3722706456E00D3D33B /* ViewController.swift */,
 				AAD9B3742706456E00D3D33B /* Main.storyboard */,
 				AAD9B384270648B600D3D33B /* CellData.swift */,
+				AAD9B388270D0EC500D3D33B /* FixedData.swift */,
 				AAD9B386270649CE00D3D33B /* TableCell.swift */,
 				AAD9B3822706468300D3D33B /* SecondViewController.swift */,
 				AAD9B3772706456F00D3D33B /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD9B387270649CE00D3D33B /* TableCell.swift in Sources */,
+				AAD9B389270D0EC600D3D33B /* FixedData.swift in Sources */,
 				AAD9B3832706468300D3D33B /* SecondViewController.swift in Sources */,
 				AAD9B3732706456E00D3D33B /* ViewController.swift in Sources */,
 				AAD9B36F2706456E00D3D33B /* AppDelegate.swift in Sources */,

@@ -13,11 +13,13 @@ class SecondViewController: UIViewController,UITextViewDelegate, UITextFieldDele
     var name:String?
     var diagnosis:String?
     var notes:String?
+    var imageName:String?
     
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label3: UILabel!
     
+    @IBOutlet weak var middleImage: UIImageView!
     
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var textView: UITextView!
@@ -36,6 +38,14 @@ class SecondViewController: UIViewController,UITextViewDelegate, UITextFieldDele
         label3.text=notes ?? "No notes"
         textField.text=notes ?? "TF notes"
         textView.text=notes ?? "TV notes"
+        middleImage.image=UIImage(named: imageName!)
+        
+        textField.isHidden=true
+        textView.isHidden=true
+        label3.isHidden=true
+        
+        print("Setting image and others in SecondViewController.viewWillAppear")
+        
     }
     
     func textViewDidEndEditing(_ textView: UITextView) {
